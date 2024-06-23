@@ -7,17 +7,23 @@ img{
     image-rendering: optimize-contrast; 
 }
 
-#img_interface{
-    width: 50%;
-    height: 50%;
+#interface_img{
+    width: 45%;
+    height: 45%;
+    position: relative;
     display: block;
     margin: auto;
 }
 
-.dentro{
+.img_relativa{
     position: relative;
+    display: flex;
+    float: right;
+    height: auto;
+    width: 7%;
 }
 
 div{
     border: 5px solid black;
+    padding: 1%;
 }
